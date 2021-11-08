@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+section{
+    width: 80%;
+    height: 80em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+
+section div{
+    width: 10em;
+    height: 10em;
+    margin: 4px;
+
+}
+
+#one, #six{
+    background: #1abc9c;
+}
+
+#two, #seven{
+    background: #3498db;
+}
+
+#three, #eight{
+    background: #9b59b6;
+}
+
+#four{
+    background: #e67e22;
+}
+
+#five{
+    background: #e74c3c;
+}
+
+.others{
+    display: none;
+}
+
+section:hover .others{
+    display: block;
+}
